@@ -1,0 +1,16 @@
+＜djangoで使用するコマンド一覧＞
+・プロジェクトの作成
+ django-admin startproject [プロジェクト名] .
+・アプリの作成
+ python3 manage.py startapp [アプリ名]
+・models.pyの実行
+ python3 manage.py makemigrations
+・DBの作成
+ python3 manage.py migrate
+・スーパーユーザーの作成
+ python3 manage.py createsuperuser
+
+＜TODOPROJECTのSuperUser＞
+ ユーザー名：TatsuyaYam
+ password：0918Yama
+
